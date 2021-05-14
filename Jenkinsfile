@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('build'){
             steps {
-                sleep 100
+                sleep 30
                 echo 'this is build stage'
             }
         }
