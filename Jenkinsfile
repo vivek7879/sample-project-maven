@@ -5,8 +5,7 @@ pipeline {
     stages {
         stage ('build'){
             steps {
-                sleep 30
-                echo 'this is build stage'
+              mvn clean install
             }
         }
         stage ('test') {
